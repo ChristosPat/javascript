@@ -1,8 +1,14 @@
-let mathgrade =18;
+let mathGrade =18;
 let historyGrade = 19;
 let readingGrade =16;
 
-let average=(mathgrade+historyGrade+readingGrade)/3;
+let average=(mathGrade+historyGrade+readingGrade)/3;
 
-console.log("ο μέσος όρος είναι:");
+console.log("Your average is:");
 console.log(average);
+
+if (average>=10){
+    console.log("Congratulations you passed!!!")
+}else{
+    console.log("Sory....You failed.")
+}
